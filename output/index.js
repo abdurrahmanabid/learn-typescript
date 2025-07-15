@@ -33,7 +33,8 @@ var __importStar = (this && this.__importStar) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
-const day1 = __importStar(require("./Day 1: TypeScript Basics/index"));
-day1.default();
+const day4 = __importStar(require("./Day 5: Promises & async-await/index"));
+// day1.default()
 // day2.default()
 // day3.default()
+day4.default();
