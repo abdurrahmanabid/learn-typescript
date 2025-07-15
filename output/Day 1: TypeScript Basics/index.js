@@ -18,4 +18,8 @@ exports.default = () => {
         return a + b;
     };
     console.log(sum(1, 3)); // I can not send any parameter as other to number, cz in the sum function the aurguments are received as number
+    let array = [1, 3, 4];
+    array.push(3);
+    console.log(array);
+    const newArray = [1, 3, 4, "abc", false];
 };

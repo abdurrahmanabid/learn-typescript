@@ -20,8 +20,25 @@ export default () => {
 
   // a function to make a sum
 
-  const sum = (a: number, b: number): number => {  
+  const sum = (a: number, b: number): number => {
     return a + b;
   };
   console.log(sum(1, 3)); // I can not send any parameter as other to number, cz in the sum function the aurguments are received as number
+
+
+
+  // add multiple
+
+  type arrType = number[];
+
+  let array: arrType = [1, 3, 4];
+  array.push(3);
+
+  console.log(array);
+
+  // spread types in array 
+
+  type multipleArrayType = [...number[],string,boolean] // Means multiple numbers, single string and a boolean
+
+  const newArray:multipleArrayType =[1,3,4,"abc",false]
 };
