@@ -17,4 +17,11 @@ export default () => {
 
   type array = Array<string>;
   let arr2: array = ["a", "n", "d"];
+
+  // a function to make a sum
+
+  const sum = (a: number, b: number): number => {  
+    return a + b;
+  };
+  console.log(sum(1, 3)); // I can not send any parameter as other to number, cz in the sum function the aurguments are received as number
 };
